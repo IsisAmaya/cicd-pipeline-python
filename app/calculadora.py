@@ -2,6 +2,7 @@
 """
 Funciones basicas de una calculadora
 """
+
 AUTORES = "icamayaa@eafit.edu.co"
 
 
@@ -14,7 +15,7 @@ def sumar(a, b):
 
 def restar(a, b):
     """
-    Resta de dos numeros 
+    Resta de dos numeros
     """
     return a - b
 

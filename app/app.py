@@ -1,7 +1,8 @@
 # app/app.py
 """
-App web de una calculadora con flask 
+App web de una calculadora con flask
 """
+
 from flask import Flask, render_template, request
 from .calculadora import sumar, restar, multiplicar, dividir
 
@@ -42,4 +43,4 @@ if __name__ == "__main__":  # pragma: no cover
     """
     Iniciar la aplicacion
     """
-    app.run(debug=True, port=5000, host="127.0.0.1")  
+    app.run(debug=True, port=5000, host="127.0.0.1")
